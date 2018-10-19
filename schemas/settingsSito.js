@@ -6,7 +6,7 @@ export default {
         {
             name: 'url',
             title: 'Url',
-            type: 'string'
+            type: 'url'
         },
         {
             name: 'logo',

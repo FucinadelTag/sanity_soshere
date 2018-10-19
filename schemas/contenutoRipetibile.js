@@ -34,6 +34,22 @@ export default {
             }
         },
         {
+            title: 'Layout',
+            name: 'layout',
+            type: 'string',
+            options: {
+                list: [
+                    {title: 'Paragrafi in Verticale', value: 'verticale'},
+                    {title: 'Paragrafi in Orizzontale', value: 'orizzontale'},
+                    {title: 'Su 2 colonne', value: '2_colonne'},
+                    {title: 'Su 3 colonne', value: '3_colonne'},
+                    {title: 'Paragrafi a sinistra', value: 'paragrafi'},
+                    {title: 'Paragrafi a destra', value: 'destra'}
+                ],
+                layout: "dropdown"
+            }
+        },
+        {
             name: 'icona',
             title: 'Icona',
             type: 'string',
@@ -45,7 +61,8 @@ export default {
 
     preview: {
         select: {
-            title: 'titolo.it'
+            title: 'titolo.it',
+            media: 'immagine'
         }
     }
 }

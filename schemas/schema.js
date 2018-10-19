@@ -7,6 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import settingsSito from './settingsSito'
 import landing from './landing'
 import contenutoRipetibile from './contenutoRipetibile'
+import banner from './banner'
 
 
 import localeString from './locale/localeString'
@@ -32,6 +33,7 @@ export default createSchema({
     landing,
     settingsSito,
     contenutoRipetibile,
+    banner,
 
 
     localeString,

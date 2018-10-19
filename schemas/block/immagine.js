@@ -1,25 +1,18 @@
 export default {
     title: 'Immagine',
     name: 'immagine',
-    type: 'object',
+    type: 'image',
+    options: {
+        hotspot: true
+    },
     fields: [
         {
-            title: 'Immagine',
-            name: 'immagine',
-            type: 'image',
+            name: 'alt',
+            type: 'localeString',
+            title: 'Alt',
             options: {
-                hotspot: true
-            },
-            fields: [
-                {
-                    name: 'alt',
-                    type: 'localeString',
-                    title: 'Alt',
-                    options: {
-                        isHighlighted: true
-                    }
-                },
-            ]
-        }
+                isHighlighted: true
+            }
+        },
     ]
 }

@@ -22,15 +22,17 @@ export default {
         {
             title: 'Posizione Immagine',
             name: 'posizioneImmagine',
-            type: 'array',
-            of: [{type: 'string'}],
+            type: 'string',
             options: {
                 list: [
+                    {title: 'Nessuna', value: null},
                     {title: 'Sopra', value: 'sopra'},
                     {title: 'Sotto', value: 'sotto'},
+                    {title: 'Dopo il Titolo', value: 'dopo_titolo'},
                     {title: 'Sinistra', value: 'sinistra'},
                     {title: 'Destra', value: 'destra'}
-                ]
+                ],
+                layout: "dropdown"
             }
         },
         {

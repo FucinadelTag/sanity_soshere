@@ -32,6 +32,12 @@ export default {
                         name: 'contenutoRipetibileReference',
                         to: {type: 'contenutoRipetibile'},
                         weak: true
+                    },
+                    {
+                        type: 'reference',
+                        name: 'bannerReference',
+                        to: {type: 'banner'},
+                        weak: true
                     }
             ],
             options: {
@@ -52,7 +58,7 @@ export default {
     preview: {
         select: {
             title: 'titoloGenerico.titolo.it',
-            media: 'testata.immagine.immagine'
+            media: 'testata.immagine'
         }
     }
 }
