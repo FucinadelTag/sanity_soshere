@@ -17,7 +17,6 @@ export default {
             title: 'Immagine',
             name: 'immagine',
             type: 'immagine',
-            options: {collapsible: true, collapsed: true}
         },
         {
             title: 'Posizione Immagine',
@@ -25,7 +24,7 @@ export default {
             type: 'string',
             options: {
                 list: [
-                    {title: 'Nessuna', value: null},
+                    {title: 'Nessuna', value: 'nessuna'},
                     {title: 'Sopra', value: 'sopra'},
                     {title: 'Sotto', value: 'sotto'},
                     {title: 'Dopo il Titolo', value: 'dopo_titolo'},
@@ -44,13 +43,15 @@ export default {
     preview: {
         select: {
             title: 'titolo.it',
+            media: 'immagine',
             name: '_type',
 
         },
         prepare(selection) {
-            const {title, name} = selection
+            const {title, name, media} = selection
             return {
-                title: title + ' (' + name + ')'
+                title: title + ' (' + name + ')',
+                media: media
             }
         }
     }
