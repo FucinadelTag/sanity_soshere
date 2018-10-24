@@ -29,8 +29,7 @@ export default {
         {
             title: 'Immagine',
             name: 'immagine',
-            type: 'immagine',
-            options: {collapsible: true, collapsed: true}
+            type: 'immagine'
         },
         {
             title: 'Layout',

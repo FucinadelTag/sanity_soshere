@@ -14,5 +14,19 @@ export default {
                 isHighlighted: true
             }
         },
+        {
+            name: 'presentazione',
+            type: 'string',
+            title: 'Presentazione',
+            options: {
+                list: [
+                    {title: 'Wide', value: 'wide'},
+                    {title: 'Quadrata', value: 'quadrata'},
+                    {title: 'Verticale', value: 'verticale'},
+                ],
+                isHighlighted: true,
+                layout: "radio"
+            }
+        },
     ]
 }

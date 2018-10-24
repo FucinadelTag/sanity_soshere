@@ -20,7 +20,9 @@ export default {
             title: 'Immagine',
             name: 'immagine',
             type: 'immagine',
-            options: {collapsible: true, collapsed: true}
+            options: {
+                hotspot: true
+            },
         },
         {
             title: 'Contenuti',
@@ -48,6 +50,11 @@ export default {
                 ],
                 layout: "dropdown"
             }
+        },
+        {
+            title: 'Titolo Visibile',
+            name: 'titolo_visibile',
+            type: 'boolean'
         },
         {
             name: 'icona',
