@@ -45,8 +45,8 @@ export default {
                     {title: 'Paragrafi in Orizzontale', value: 'orizzontale'},
                     {title: 'Su 2 colonne', value: '2_colonne'},
                     {title: 'Su 3 colonne', value: '3_colonne'},
-                    {title: 'Paragrafi a sinistra', value: 'paragrafi'},
-                    {title: 'Paragrafi a destra', value: 'destra'}
+                    {title: 'Paragrafi a sinistra', value: 'paragrafi_sinistra'},
+                    {title: 'Paragrafi a destra', value: 'paragrafi_destra'}
                 ],
                 layout: "dropdown"
             }
