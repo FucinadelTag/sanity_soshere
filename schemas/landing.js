@@ -38,7 +38,13 @@ export default {
                         name: 'bannerReference',
                         to: {type: 'banner'},
                         weak: true
-                    }
+                    },
+                    {
+                        type: 'reference',
+                        name: 'componentIncludeReference',
+                        to: {type: 'componentInclude'},
+                        weak: true
+                    },
             ],
             options: {
                 editModal: 'dialog'

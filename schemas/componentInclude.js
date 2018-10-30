@@ -6,14 +6,14 @@ export default {
         {
             name: 'titolo',
             title: 'Titolo',
-            type: 'localeString',
+            type: 'string',
         },
         {
             name: 'slug',
             title: 'Slug',
             type: 'slug',
             options: {
-                source: 'titolo.it'
+                source: 'titolo'
             },
         }
 
@@ -23,7 +23,7 @@ export default {
 
     preview: {
         select: {
-            title: 'titolo.it'
+            title: 'titolo'
         }
     }
 }
