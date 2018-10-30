@@ -8,6 +8,7 @@ import settingsSito from './settingsSito'
 import landing from './landing'
 import contenutoRipetibile from './contenutoRipetibile'
 import banner from './banner'
+import componentInclude from './componentInclude'
 
 
 import localeString from './locale/localeString'
@@ -34,6 +35,7 @@ export default createSchema({
     settingsSito,
     contenutoRipetibile,
     banner,
+    componentInclude,
 
 
     localeString,
