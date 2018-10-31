@@ -28,5 +28,21 @@ export default {
                 layout: "radio"
             }
         },
+        {
+            name: 'base',
+            type: 'number',
+            title: 'Base',
+            options: {
+                isHighlighted: true
+            }
+        },
+        {
+            name: 'altezza',
+            type: 'number',
+            title: 'Altezza',
+            options: {
+                isHighlighted: true
+            }
+        },
     ]
 }

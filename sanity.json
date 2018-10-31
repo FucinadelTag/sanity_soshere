@@ -5,7 +5,7 @@
   },
   "api": {
     "projectId": "il0zyooc",
-    "dataset": "production"
+    "dataset": "dev"
   },
   "env": {
     "development": {
