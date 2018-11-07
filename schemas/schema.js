@@ -8,6 +8,7 @@ import settingsSito from './settingsSito'
 import landing from './landing'
 import contenutoRipetibile from './contenutoRipetibile'
 import banner from './banner'
+import traduzioni from './traduzioni'
 import componentInclude from './componentInclude'
 
 
@@ -18,6 +19,7 @@ import localeBlock from './locale/localeBlock'
 
 import metadata from './block/metadata'
 import titoloGenerico from './block/titoloGenerico'
+import traduzioneGenerica from './block/traduzioneGenerica'
 import testata from './block/testata'
 import paragrafo from './block/paragrafo'
 import immagine from './block/immagine'
@@ -35,6 +37,7 @@ export default createSchema({
     settingsSito,
     contenutoRipetibile,
     banner,
+    traduzioni,
     componentInclude,
 
 
@@ -45,6 +48,7 @@ export default createSchema({
 
     metadata,
     titoloGenerico,
+    traduzioneGenerica,
     paragrafo,
     testata,
     immagine
