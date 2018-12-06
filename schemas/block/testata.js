@@ -18,6 +18,19 @@ export default {
             name: 'immagine',
             type: 'immagine',
         },
+        {
+            title: 'Stile testata',
+            name: 'stileTestata',
+            type: 'string',
+            options: {
+                list: [
+                    {title: 'Nero', value: 'nero'},
+                    {title: 'Bianco', value: 'bianco'},
+                    {title: 'Sfondo', value: 'sfondo'}
+                ],
+                layout: "dropdown"
+            }
+        },
     ],
     preview: {
         select: {
