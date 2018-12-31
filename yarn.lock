@@ -671,9 +671,9 @@
     make-error "^1.3.0"
     object-assign "^4.1.1"
 
-"@sanity/components@^0.139.4":
-  version "0.139.4"
-  resolved "https://registry.npmjs.org/@sanity/components/-/components-0.139.4.tgz#af24388019710e91d39d5cb509f0185c086da777"
+"@sanity/components@^0.139.5":
+  version "0.139.5"
+  resolved "https://registry.npmjs.org/@sanity/components/-/components-0.139.5.tgz#73793f9f4e1e93fc97c31b54bb66593fc1e14619"
   dependencies:
     "@sanity/date-input" "0.139.0"
     "@sanity/imagetool" "0.139.0"
@@ -774,9 +774,9 @@
     "@sanity/generate-help-url" "0.139.0"
     "@sanity/rich-date-input" "0.139.0"
 
-"@sanity/default-layout@^0.139.4":
-  version "0.139.4"
-  resolved "https://registry.npmjs.org/@sanity/default-layout/-/default-layout-0.139.4.tgz#537df9f519b996c19911d137771c635457e2719a"
+"@sanity/default-layout@^0.139.5":
+  version "0.139.5"
+  resolved "https://registry.npmjs.org/@sanity/default-layout/-/default-layout-0.139.5.tgz#1ac49155339b7521a5dfc3dcad2672f9b548e872"
   dependencies:
     "@sanity/generate-help-url" "0.139.0"
     is-hotkey "^0.1.4"
@@ -795,12 +795,12 @@
     in-publish "^2.0.0"
     prop-types "^15.6.0"
 
-"@sanity/desk-tool@^0.139.4":
-  version "0.139.4"
-  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-0.139.4.tgz#58570b2a6b72d143662eb8aafbb6f66feb7ebea5"
+"@sanity/desk-tool@^0.139.5":
+  version "0.139.5"
+  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-0.139.5.tgz#c8868e65cce999f5b158291a9766859042e50428"
   dependencies:
     "@sanity/data-aspects" "0.139.0"
-    "@sanity/form-builder" "0.139.4"
+    "@sanity/form-builder" "0.139.5"
     "@sanity/generate-help-url" "0.139.0"
     "@sanity/mutator" "0.139.1"
     "@sanity/structure" "0.139.0"
@@ -850,9 +850,9 @@
     simple-get "^3.0.2"
     split2 "^2.1.1"
 
-"@sanity/form-builder@0.139.4":
-  version "0.139.4"
-  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-0.139.4.tgz#909736090637e5784f86e63623c5f825d687f9bf"
+"@sanity/form-builder@0.139.5":
+  version "0.139.5"
+  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-0.139.5.tgz#88f6f845a74499b00f4ca23a963b92a5f85bbb82"
   dependencies:
     "@sanity/block-tools" "0.139.4"
     "@sanity/generate-help-url" "0.139.0"
@@ -1071,9 +1071,9 @@
     es6-error "^4.0.2"
     type-of-is "^3.5.1"
 
-"@sanity/vision@^0.139.4":
-  version "0.139.4"
-  resolved "https://registry.npmjs.org/@sanity/vision/-/vision-0.139.4.tgz#78018e16e0039ab847d3130c6e79f2c29fcc7385"
+"@sanity/vision@^0.139.5":
+  version "0.139.5"
+  resolved "https://registry.npmjs.org/@sanity/vision/-/vision-0.139.5.tgz#61e1af9c5d78cfb3ea58e144086a54d19348107c"
   dependencies:
     classnames "^2.2.5"
     moment "^2.19.1"
@@ -1695,12 +1695,12 @@ caniuse-api@^2.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000923"
-  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000923.tgz#0724b5fbd7f9fe424060b788b11e6b8d77102deb"
+  version "1.0.30000925"
+  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000925.tgz#6acaffc511dfe5e88e612409c4cae45cb5fcb394"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000921:
-  version "1.0.30000923"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30000923.tgz#148f9bda508024b5ce957b463ae2e8302b451bb2"
+  version "1.0.30000925"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30000925.tgz#f1a3b9aae2a83071b1eccfa39959d72440409b08"
 
 canvas-to-blob@^0.0.0:
   version "0.0.0"
@@ -3412,8 +3412,8 @@ interop-require@^1.0.0:
   resolved "https://registry.npmjs.org/interop-require/-/interop-require-1.0.0.tgz#e53103679944c88d7e6105b62a9f4475c783971e"
 
 interpret@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
 
 intl-format-cache@^2.0.5:
   version "2.1.0"
@@ -3915,8 +3915,8 @@ loader-utils@^0.2.16:
     object-assign "^4.0.1"
 
 loader-utils@^1.0.2, loader-utils@^1.1.0:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-1.2.1.tgz#64bbbac69aa5840d03754ba676a963dec568e844"
+  version "1.2.3"
+  resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
   dependencies:
     big.js "^5.2.2"
     emojis-list "^2.0.0"
