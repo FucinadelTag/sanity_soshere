@@ -41,6 +41,18 @@ export default {
             weak: false
         },
         {
+            title: 'Data Pubblicazione',
+            name: 'dataPubblicazione',
+            type: 'datetime',
+            validation: Rule => Rule.required(),
+            options: {
+                dateFormat: 'YYYY-MM-DD',
+                timeFormat: 'HH:mm',
+                timeStep: 15,
+                calendarTodayLabel: 'Oggi'
+            }
+        },
+        {
             title: 'Contenuti',
             name: 'contenuti',
             type: 'array',
@@ -60,6 +72,16 @@ export default {
 
 
 
+    ],
+
+    orderings: [
+        {
+          title: 'Data Pubblicazione, New',
+          name: 'dataPubblicazioneDesc',
+          by: [
+            {field: 'dataPubblicazione', direction: 'desc'}
+          ]
+        }
     ],
 
     preview: {
