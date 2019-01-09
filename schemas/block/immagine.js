@@ -3,7 +3,9 @@ export default {
     name: 'immagine',
     type: 'image',
     options: {
-        hotspot: true
+        hotspot: true,
+        collapsible: true, 
+        collapsed: true
     },
     fields: [
         {
@@ -11,7 +13,9 @@ export default {
             type: 'localeString',
             title: 'Alt',
             options: {
-                isHighlighted: true
+                isHighlighted: true,
+                collapsible: true, 
+                collapsed: true
             }
         },
         {
@@ -24,7 +28,7 @@ export default {
                     {title: 'Quadrata', value: 'quadrata'},
                     {title: 'Verticale', value: 'verticale'},
                 ],
-                isHighlighted: true,
+                isHighlighted: false,
                 layout: "radio"
             }
         },
@@ -33,7 +37,7 @@ export default {
             type: 'number',
             title: 'Base',
             options: {
-                isHighlighted: true
+                isHighlighted: false
             }
         },
         {
@@ -41,7 +45,7 @@ export default {
             type: 'number',
             title: 'Altezza',
             options: {
-                isHighlighted: true
+                isHighlighted: false
             }
         },
     ]

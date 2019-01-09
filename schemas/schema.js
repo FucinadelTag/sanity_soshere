@@ -6,6 +6,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // We import object and document schemas
 import settingsSito from './settingsSito'
 import landing from './landing'
+import articolo from './articolo'
+import categoria from './categoria'
 import contenutoRipetibile from './contenutoRipetibile'
 import banner from './banner'
 import traduzioni from './traduzioni'
@@ -33,6 +35,8 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
+    articolo,
+    categoria,
     landing,
     settingsSito,
     contenutoRipetibile,

@@ -2,6 +2,7 @@ export default {
     title: 'Titolo Generico',
     name: 'titoloGenerico',
     type: 'object',
+    validation: Rule => Rule.required(),
     fields: [
         {
             title: 'Titolo',
